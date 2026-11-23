@@ -64,7 +64,7 @@ sun-proactive/     Next.js app (volunteer, curator and admin areas)
 
 ## Run locally
 
-You need Node.js 20+, Docker and an OpenAI-compatible API key. A Gemini key is needed only for photo verification.
+You need a recent Node.js LTS, Docker and an OpenAI-compatible API key. A Gemini key is needed only for photo verification.
 
 ```bash
 # 1. Database (PostgreSQL + pgvector)
@@ -81,7 +81,7 @@ npm run dev
 # 3. Frontend (new terminal)
 cd ../sun-proactive
 npm install
-NEXT_PUBLIC_API_URL=http://localhost:3001 npm run dev
+NEXT_PUBLIC_API_URL=http://localhost:8080 npm run dev
 ```
 
 ## My role
