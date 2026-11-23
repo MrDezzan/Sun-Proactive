@@ -1,14 +1,7 @@
-# Next.js build output
 .next/
 out/
-
-# Production dependencies
 node_modules/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Local env files
+.env
 .env*.local
+*.db
+npm-debug.log*
